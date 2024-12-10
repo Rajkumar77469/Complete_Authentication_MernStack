@@ -1,5 +1,8 @@
 MERN Stack Authentication Project
+
+
 A complete authentication system built with the MERN stack (MongoDB, Express, React, Node.js). The system includes the following features:
+
 
 User registration with username, email, and password.
 Email verification via OTP.
@@ -9,25 +12,38 @@ Features
 User Registration
 Users can register with their username, email, and password. An OTP is sent to their email for verification.
 
+
+
 Email Verification
+
 Users must verify their email using the OTP sent to complete registration.
 
+
+
 Login
+
 Registered users can log in with their email and password.
 
 Logout
+
 Users can log out securely.
 
 Password Reset
+
 If a user forgets their password, they can request an OTP via email and reset their password.
 
 Technologies Used
+
 Frontend: React, Axios
 Backend: Node.js, Express
 Database: MongoDB
 Authentication: JSON Web Tokens (JWT) and OTP for email verification
+
+
 Setup Instructions
+
 Prerequisites
+
 Ensure you have the following installed:
 
 Node.js
